@@ -1,0 +1,22 @@
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+// allow svg icons to be colored by CSS
+// unless they have class icon--full-color
+svg.icon:not(.icon--full-color),
+symbol.icon:not(.icon--full-color) {
+  circle,
+  ellipse,
+  g,
+  line,
+  path,
+  polygon,
+  polyline,
+  rect {
+    fill: inherit;
+    stroke: inherit;
+  }
+}
