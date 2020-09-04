@@ -16,7 +16,7 @@
     "gulp-changed": "^4.0.1",
     "gulp-cheerio": "^0.6.3",
     "mini-css-extract-plugin": "^0.8.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
     "svg-sprite-loader": "^4.1.6",
